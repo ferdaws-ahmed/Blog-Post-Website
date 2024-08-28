@@ -147,4 +147,55 @@ nav ul li a:hover{
             transform: scale(1.05);
         }
 /* archives section end here */
+
+
+/* blog post section start here */
+        .blog-post{
+            margin-bottom: 20px;
+        }
+        .blog-post .blog-heading{
+
+        }
+        .blog-post .blog-heading h1{
+            text-align: center;
+            font-size: 80px;
+            font-family: "Dancing Script", cursive;
+            margin: 100px 0 70px 0;
+            text-decoration: underline;
+        }
+        .blog-content .blog-img img{
+            width: 150px;
+            height: 100%;
+            
+            
+        }
+        .blog-content .blog-img{
+            height: 152px;
+        }
+        .blog-content{
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            width: 95%;
+            margin: 0 auto;
+            transition: all 0.4s;
+            margin-bottom: 20px;
+            
+        }
+        .blog-content:hover{
+            transform: scale(1.02);
+            box-shadow: 3px 3px 40px;
+        }
+        .blog-content .blog-desc{
+            margin-left: 10px;
+        }
+        .blog-desc p{
+            text-align: justify;
+            padding: 0 5px 5px 0px;
+        }
+        .blog-desc button{
+            background-color: orange;
+            padding: 2px 6px;
+        }
+/* blog post section ends here */
 /* main end here */

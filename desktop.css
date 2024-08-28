@@ -103,4 +103,18 @@ nav ul li a{
             height: 180px;
         }
 /* archives section end here */
+
+
+
+/* blog post section start here */
+        .blog-content{
+                   width: 70%;
+        }
+        .blog-content .blog-img{
+           
+        }
+        .blog-content .blog-img img{
+           
+        }
+/* blog post section ends here */
 /* main end here */
