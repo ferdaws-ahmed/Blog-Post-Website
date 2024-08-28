@@ -120,4 +120,31 @@ nav ul li a:hover{
         background-color: rgb(202, 167, 27);
      }
 /* about section end here */
+
+
+/* archives section start here */
+        .archives-section{
+            margin-bottom: 20px;
+        }
+        .archives-section h1{
+            font-size: 80px;
+            text-align: center;
+            margin: 100px 0 70px 0;
+            font-family: "Dancing Script", cursive;
+        }
+        .archives-section li{
+            list-style: none;
+            text-align: center;
+        }
+        .archives-section li img{
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 6px;
+            transition: all 0.4s;
+        }
+        .archives-section li img:hover{
+            transform: scale(1.05);
+        }
+/* archives section end here */
 /* main end here */
