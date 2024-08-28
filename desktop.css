@@ -14,6 +14,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 header ul li {
     display: inline;
@@ -27,3 +31,58 @@ nav ul li a{
     transition: 0.3s;
     padding: 5px 10px;
 }
+
+/* header start end here */
+
+
+
+/* main start here*/
+   /* banner section start here */
+   article{grid-area: articale;}
+   aside{grid-area: aside;}
+   .banner{
+       display: grid;
+       grid-template-areas: 
+             'articale aside'
+       ;
+   padding: 50px;
+   
+   }
+   .banner article{
+      text-align: left;
+       display: flex;
+       justify-content: start;
+       align-items: start;
+       margin-top: 200px;
+   }
+   .banner article h1{
+      margin: 20px 0;
+      font-size: 35px;
+      background-color: gray;
+
+   }
+   .banner article p{
+       text-align: justify;
+   }
+   .banner aside{
+       width: 600px;
+   }
+   .banner aside img{
+       border:2px solid black;
+   }
+   /* banner section end here */
+
+
+   /* about section start herte */
+     
+    
+    .card-1{grid-area: card-1;}
+    .card-2{grid-area: card-2;}
+    .card-3{grid-area: card-3;}
+    .about-card{
+        display:grid;
+        grid-template-areas: 'card-1 card-2 card-3';
+    }
+
+   /* about section end here */
+/* main end here */

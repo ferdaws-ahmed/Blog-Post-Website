@@ -1,5 +1,8 @@
-/* google fonts */
+/* google fonts  roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* google fonts Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -17,6 +20,9 @@ header{
 }
 header .logo-figure{
     font-size:50px ;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px 8px;
 }
 nav ul li{
     list-style: none;
@@ -35,3 +41,83 @@ nav ul li a:hover{
     
     border-radius: 10px;
 }
+
+/* header start end here */
+
+
+
+/* main start here*/
+/* banner section; start */
+.banner{
+    padding: 20px;
+    text-align: center;
+}
+.banner article{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner article h1{
+    margin: 20px 0;
+    font-size: 35px;
+    background-color: gray;
+}
+.banner article p{
+    text-align: left;
+    text-align: justify;
+}
+.banner aside img{
+    width:400px;
+    height: 400px;
+}
+/* banner section end */
+
+
+/* about section start herte */
+
+     .about-section{
+        background-color: rgb(85, 78, 78);
+        color: white;
+        text-align: center;
+        padding-bottom: 30px;
+     }
+     .about-section h1{
+        text-align: center;
+        padding: 40px 40px;
+        font-size: 70px;
+        font-family: "Dancing Script", cursive;
+     }
+
+     .about-section .card{
+        width: 350px;
+        height: 400px;
+        background-color: gray;
+        
+        margin: 0 auto;
+        margin-top: 20px;
+
+        border-radius: 10px;
+        transition: all 0.4s;
+     }
+     .about-section .card:hover{
+        transform: scale(1.07);
+     }
+     .about-section .card h2{
+        padding-top: 50px;
+        font-size: 30px;
+     }
+     .about-section .card p{
+       
+        text-align: justify;
+        padding: 10px;
+         padding-top: 30px;
+     }
+     .about-section .card button{
+        margin-top: 40px;
+        padding: 4px 10px;
+        background-color: rgb(202, 167, 27);
+     }
+/* about section end here */
+/* main end here */
