@@ -118,3 +118,11 @@ nav ul li a{
         }
 /* blog post section ends here */
 /* main end here */
+
+/* footer start here */
+         footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+/* footer ends here */

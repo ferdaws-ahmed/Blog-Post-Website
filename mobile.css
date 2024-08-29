@@ -240,3 +240,25 @@ nav ul li a:hover{
         }
 /* contact section ends here */
 /* main end here */
+
+
+/* footer start here */
+       footer{
+        text-align: center;
+        padding: 10px;
+        color: white;
+        background-color: black;
+       }
+       footer p{
+        margin: 10px;
+       }
+       footer .social-icon i{
+        padding: 10px;
+        font-size: 35px;
+       }
+       footer .social-icon i:hover{
+        background-color: gray;
+        cursor: pointer;
+        border-radius: 50%;
+       }
+/* footer ends here */
