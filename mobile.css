@@ -198,4 +198,45 @@ nav ul li a:hover{
             padding: 2px 6px;
         }
 /* blog post section ends here */
+
+
+/* contact section start here */
+         
+        .contact-section{
+            background-color: rgb(49, 48, 45);
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        .contact-section .contact-heading h1{
+            font-family: "Dancing Script", cursive;
+            font-size: 80px;
+            padding: 100px 0 70px 0;
+        }
+        .contact-submit{
+            background-color: rgb(63, 62, 59);
+            padding: 50px;
+            width: 90%;
+            border-radius: 15px;
+            margin: 0 auto;
+        }
+        .contact-submit input{
+            padding: 10px;
+            margin:15px 15px;
+            border-radius: 10px;
+        }
+        .contact-submit .textarea{
+            width: 250px;
+            height: 50px;
+            margin-left: 10px;
+            
+        }
+        .contact-submit .sub-btn{
+            text-align: right;
+            margin-left: 180px;
+            padding: 10px 20px;
+            background-color: orange;
+        }
+/* contact section ends here */
 /* main end here */
